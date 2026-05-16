@@ -5,7 +5,8 @@ This project demonstrates a real-time streaming ETL architecture that captures d
 
 ##### Architecture Diagram
 
-<img width="1179" height="388" alt="etl" src="https://github.com/user-attachments/assets/cdac40be-cf04-4fc3-bb9c-aff55c0a9d1e" />
+<img width="1211" height="404" alt="image" src="https://github.com/user-attachments/assets/0549953c-b2e4-4f67-bdf2-52a4e2307a1c" />
+
 
 
 Verify Indexed Document
