@@ -3,7 +3,9 @@
 
 This project demonstrates a real-time streaming ETL architecture that captures database changes from MySQL and PostgreSQL using CDC connectors, enriches the streams with Apache Flink SQL, and indexes the transformed data into Elasticsearch for low-latency search and analytics.
 
+##### Architecture Diagram
 
+<img width="1179" height="388" alt="etl" src="https://github.com/user-attachments/assets/cdac40be-cf04-4fc3-bb9c-aff55c0a9d1e" />
 
 
 Verify Indexed Document
