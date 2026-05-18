@@ -1,6 +1,16 @@
 ## Building a Real-Time Streaming ETL Pipeline with FlinkCDC and Elasticsearch
 
 
+![workflow](https://github.com/zablon-oigo/flinkcdc-elasticsearch-streaming-etl/actions/workflows/docker-build.yaml/badge.svg)
+![workflow](https://github.com/zablon-oigo/flinkcdc-elasticsearch-streaming-etl/actions/workflows/ci.yaml/badge.svg)
+![Flink](https://img.shields.io/badge/Apache%20Flink-Stream%20Processing-E6526F?logo=apacheflink&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-CDC%20Source-4479A1?logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-CDC%20Source-336791?logo=postgresql&logoColor=white)
+![Flink CDC](https://img.shields.io/badge/Flink%20CDC-Real%20Time%20ETL-orange)
+![Docker](https://img.shields.io/badge/Docker-Containerized%20Environment-2496ED?logo=docker&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-Search%20Engine-005571?logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-Data%20Visualization-005571?logo=kibana&logoColor=white)
+
 This project demonstrates a real-time streaming ETL architecture that captures database changes from MySQL and PostgreSQL using CDC connectors, enriches the streams with Apache Flink SQL, and indexes the transformed data into Elasticsearch for low-latency search and analytics.
 
 ##### Architecture Diagram
@@ -80,3 +90,7 @@ curl -X GET "localhost:9200/enriched_orders/_search?pretty" \
   }
 }'
 ```
+
+
+#### Medium Article Link
+[Building a Real-Time Streaming ETL Pipeline with FlinkCDC and Elasticsearch](https://medium.com/@zablon-oigo/building-a-real-time-streaming-etl-pipeline-with-flinkcdc-and-elasticsearch-8819aa6f302c)
