@@ -13,11 +13,40 @@
 
 This project demonstrates a real-time streaming ETL architecture that captures database changes from MySQL and PostgreSQL using CDC connectors, enriches the streams with Apache Flink SQL, and indexes the transformed data into Elasticsearch for low-latency search and analytics.
 
-##### Architecture Diagram
+#### Architecture Diagram
 
 <img width="1211" height="404" alt="image" src="https://github.com/user-attachments/assets/0549953c-b2e4-4f67-bdf2-52a4e2307a1c" />
 
 
+### Quick Start
+
+Follow these steps to run the pipeline locally:
+
+>Tip: Run commands in order. Each step depends on the previous one being completed successfully.
+
+```sh
+# 1. First-time setup (build + start all services)
+make setup
+
+# 2. Check running containers
+make ps
+
+# 3. Log into MySQL and run SQL scripts
+make mysql
+
+# 4. Log into PostgreSQL and run SQL scripts
+make postgres
+
+# 5. Run Flink SQL
+make flink-sql
+
+# 6. Stop running containers
+make down
+```
+
+
+
+### Querying Data in Elasticsearch
 
 Verify Indexed Document
 ```sh
