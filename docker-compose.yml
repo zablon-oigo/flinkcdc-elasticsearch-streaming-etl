@@ -1,7 +1,7 @@
 services:
 
   jobmanager:
-    build: .
+    image: zablondev/flink-elasticsearch:latest
     hostname: jobmanager
     container_name: jobmanager
       
@@ -24,7 +24,7 @@ services:
 
 
   taskmanager:
-    build: .
+    image: zablondev/flink-elasticsearch:latest
     hostname: taskmanager
     command: taskmanager
     container_name: taskmanager
